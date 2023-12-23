@@ -1,0 +1,364 @@
+/* /*
+ * Globals
+ */
+
+ /* stars rating  */
+ div.stars{
+  height: 50px; 
+  width: 90px; 
+ }
+ div.stars img{
+  height: 50px; 
+  width: 90px; 
+ }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.margin-top{
+  margin-top: 2rem;
+}
+.red{
+  color: red;
+}
+.text-align-center{
+  text-align: center;
+}
+.reusable-width{
+  width: 100%;
+}
+.general-display div{
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.star{
+  height:15px !important; 
+  width:70px;
+}
+.special-height{
+  height:40px;
+}
+
+
+
+/* navbar section */
+#navbar{
+    background-color: rgb(3, 27, 77);
+    background-color: rgb(65, 11, 65);
+    background-color: white;
+
+  } 
+.navbar-toggler{
+  background-color: #fff;
+}
+a.navbar-brand span{
+  font-weight: bold;
+}
+#navbar a{
+  color: rgb(3, 27, 77);
+}
+/* for correction of navbar ul a link */
+.navbar ul{
+  margin-left: 10%;
+
+}
+/* carousel section */
+.carousel-item{
+    padding-top: 0.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+.carousel-item:hover{
+  margin-left: 0.2rem;
+  /* color: blue; */
+}
+.carousel-item p:hover{
+  font-weight: bold;
+}
+.carousel-item img{
+  width: 49%; 
+  height: 10rem;
+
+}
+
+.carousel-inner{
+    /* background-color: rgb(3, 27, 77); */
+    /* background-color: rgb(87, 99, 126); */
+    /* background-image: url("./img/trailer-jpg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0.5rem 0;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 10px;
+}
+.carousel-control-prev, .carousel-control-next{
+    background-color: #fff;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #000;
+}
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+.h1-header-div{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(12, 7, 7, 0.2);
+  text-align: center;
+} 
+/* /////images section////// */
+
+/* top sample images section */
+.top-sample-images{
+  width: 120px; 
+  height: 60px;
+  margin: 0 auto;
+}
+.top-sample-images:hover{
+padding-right: 5px;
+}
+.top-card-image-sample{
+  padding: 0 5%;
+  text-align: center;
+}
+.top-card-image-sample p{
+  font-size: 0.9rem; 
+  margin-bottom: 0;
+  color: black;
+}
+.top-card-image-sample p:hover{
+color: blue;
+padding-right: 5px;
+font-weight: bold;
+}
+
+/* auto brand section */
+
+.auto-brand-column{
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+.auto-brand-images{
+  width: 100%; 
+  height: 60px;
+  margin: 0 auto;
+}
+.auto-brand-card-images{
+  width: 70px; 
+  height: 60px;
+  margin: 0 auto;
+}
+.auto-brand-card-images:hover{
+padding-right: 5px;
+}
+.all-auto-brands-div{
+  width: 100%;
+}
+/* auto brands stopped here */
+.top-card-image-sample{
+  padding: 0 5%;
+  text-align: center;
+}
+.top-card-image-sample p{
+  font-size: 0.9rem; 
+  margin-bottom: 0;
+  color: black;
+}
+.top-card-image-sample p:hover{
+color: blue;
+padding-right: 5px;
+font-weight: bold;
+}
+.auto-brand-card-image-sample{
+  padding: 0 5%;
+  text-align: center;
+}
+
+/* footer section */
+footer{
+  margin-top: 5rem;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   text-align: center;
+   padding: 1rem;
+   background-color: white;
+    color: rgb(3, 27, 77);
+    box-shadow: 8px 4px 8px 0 rgba(12, 7, 7, 0.2);
+}
+
+
+/* contact section */
+.contact h4{
+  color: rgb(36, 28, 28);
+}
+.stars{
+  height: 15px !important;
+  width: 70px !important;
+  margin-left: 2rem;
+ }
+
+
+ /* css for product page starts here */
+ #ProductImg{
+  width: 100%;
+  height: 70%;
+}
+
+.small-img-col img{
+  width: 100%;
+  height: 5rem;
+}
+
+.small-img-row{
+  margin-top: 0.5rem;
+}
+
+
+
+ input:focus{
+    outline:none;
+ }
+ .single-product .fa{
+    color: #ff523b;
+    /* margin-left: 10px; */
+ }
+
+ .small-img-row{
+    display: flex;
+    justify-content: space-between;
+ }
+ .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+ }
+
+ .view-more-button{
+  margin: 0 0 1.5rem 1.5rem;
+}
+.bold-font-weight{
+  font-weight: bold;
+}
+
+
+/* css for product page ends here */
+  
+/* code from browser starts header */
+
+/* codes from browser endes here */
+
+ 
+ @media only screen and (max-width: 700px){
+
+  .special-bottom-padding{
+    padding-bottom: 23px;
+
+  }
+
+
+.carousel-item img{
+  height: 7rem;
+}
+h1{
+  font-size: 1.7rem;
+}
+p{
+  font-size: 1.2rem;
+}
+
+.navbar ul{
+  margin-left: 0;
+
+}
+
+
+.top-card-image-sample p{
+  font-size: 1rem; 
+
+}
+
+.top-sample-images{
+  width: 100%; 
+  height: 33px;
+}
+.carousel-item img{
+  width: 95%;
+  height: 76px;
+}
+
+#ProductImg{
+  width: 100%;
+}
+.small-img{
+  width: 100%;
+}
+
+.auto-brand-card-images{
+  width: 100%; 
+}
+
+.auto-brand-column{
+margin-bottom: 1rem;
+}
+
+
+}
+
+
+
+
+
