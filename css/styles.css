@@ -53,6 +53,11 @@ a:hover {
     background-color: white;
 
   } 
+  .navbar{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+  }
 .navbar-toggler{
   background-color: #fff;
 }
@@ -62,10 +67,10 @@ a.navbar-brand span{
 #navbar a{
   color: rgb(3, 27, 77);
 }
+
 /* for correction of navbar ul a link */
 .navbar ul{
   margin-left: 10%;
-
 }
 /* carousel section */
 .carousel-item{
