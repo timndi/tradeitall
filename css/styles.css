@@ -61,6 +61,9 @@ a:hover {
 .navbar-toggler{
   background-color: #fff;
 }
+a.navbar-brand{
+  padding: 0 0 0 2px;
+}
 a.navbar-brand span{
   font-weight: bold;
 }
