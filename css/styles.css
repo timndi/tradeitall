@@ -233,6 +233,15 @@ font-weight: bold;
   text-align: center;
 }
 
+/* first body div */
+.content-div{
+  padding: 3rem 7rem;
+}
+.content-div h6{
+  font-weight: bold; 
+  padding-bottom: 1rem;
+}
+
 /* footer section */
 footer{
   margin-top: 5rem;
@@ -367,6 +376,10 @@ p{
 
 .auto-brand-column{
 margin-bottom: 1rem;
+}
+
+.content-div{
+  padding: 2rem;
 }
 
 
