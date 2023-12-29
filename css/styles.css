@@ -137,6 +137,8 @@ body {
 .h1-header-div{
   text-align: center;
   margin-top: 1rem;
+  color: rgb(29, 3, 77);
+  color: darkred;
 }
 
 /* Float four columns side by side */
@@ -240,6 +242,19 @@ font-weight: bold;
 .content-div h6{
   font-weight: bold; 
   padding-bottom: 1rem;
+}
+
+/* cards for auto dispalay */
+.auto-display-card a p{
+  color: #333;
+}
+.col-md-3:hover{
+  margin-top: -0.8rem;
+}
+
+/* selection filter div */
+.filter-div:hover{
+ margin-top: 0;
 }
 
 /* footer section */
